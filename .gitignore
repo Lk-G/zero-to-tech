@@ -1,5 +1,6 @@
 # dependencies
-node_modules/
+#依赖不进git
+node_modules/  
 
 # next.js
 .next/
@@ -18,7 +19,10 @@ dist/
 *.log
 .env*
 
-
+#产物（缓存）不进git
 backend/.venv/
 backend/__pycache__
 *.pyc
+
+#数据不进git
+backend/*.db 
