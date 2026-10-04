@@ -18,6 +18,7 @@ dist/
 .DS_Store
 *.log
 .env*
+!.env.example
 
 #产物（缓存）不进git
 backend/.venv/
