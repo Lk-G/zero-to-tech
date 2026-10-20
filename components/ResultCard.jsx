@@ -10,7 +10,7 @@ export default function ResultCard({ result, onOpenHistory }) {
   const scoreRef = useRef(null);
 
   const original = result
-    ? result.text
+    ? result.text 
     : "今天的风很轻，适合把脑海里的想法慢慢写下来。";
   const pinyin = result ? result.pinyin : "jīn tiān de fēng hěn qīng …";
   const score = result ? result.score : 0.86;
